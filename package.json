@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "node ./node_modules/dpl/dpl.js",
+    "deploy": "node ./node_modules/dpl/dpl.js"
   },
   "repository": {
     "type": "git",
