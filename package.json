@@ -1,0 +1,35 @@
+{
+  "name": "s3-save",
+  "version": "1.0.0",
+  "description": "A lambda function that saves an objects to an s3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node ./node_modules/dpl/dpl.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilaravi/s3-save.git"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "Node.js",
+    "S3"
+  ],
+  "author": "Nikhila Ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilaravi/s3-save/issues"
+  },
+  "homepage": "https://github.com/nikhilaravi/s3-save#readme",
+  "devDependencies": {
+    "dpl": "^3.0.1"
+  },
+  "dependencies": {
+    "promise": "^7.1.1"
+  },
+  "files_to_deploy": [
+    "index.js"
+  ]
+}
